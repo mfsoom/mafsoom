@@ -103,7 +103,7 @@ async def string_session(
     try:
         phone_number = await Anony.ask(
             identifier=(message.chat.id, user_id, None),
-            text="<b>✦ 📞 الرجـاء إرسـال رقـم هاتفـك</b>\n<b>مثال : +97075532342</b>",
+            text="<b>✦ 📞 الرجـاء إرسـال رقـم هاتفـك</b>\n<b>مثال : +9647755327342</b>",
             filters=filters.text,
             timeout=300,
         )
