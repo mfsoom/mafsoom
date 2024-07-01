@@ -11,7 +11,7 @@
         "pyrogram",
         "telethon"
     ],
-    "repository": "https://github.com/mafsoom/string",
+    "repository": "https://github.com/mfsoom/string",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
