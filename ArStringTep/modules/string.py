@@ -42,7 +42,7 @@ async def string_session(
     if telethon:
         ty = f"✦ تليثـون"
     elif old_pyro:
-        ty = f"✦ مايشتغل بايروجـرام"
+        ty = f"✦  بايروجـرام مايشتغل"
     else:
         ty = f"✦ بايروجـرام "
 
