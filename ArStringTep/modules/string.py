@@ -42,9 +42,9 @@ async def string_session(
     if telethon:
         ty = f"✦ تليثـون"
     elif old_pyro:
-        ty = f"✦ بايروجـرام"
+        ty = f"✦ مايشتغل بايروجـرام"
     else:
-        ty = f"✦ بايروجـرام v2"
+        ty = f"✦ بايروجـرام "
 
     await message.reply_text(f"<b>✦ محاولة بدء {ty} استخراج الجلسة</b>..")
 
