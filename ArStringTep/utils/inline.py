@@ -18,7 +18,6 @@ keyboard = InlineKeyboardMarkup(
 string_key = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text=" ", callback_data="pyrogram1"),
             InlineKeyboardButton(text="بايـروجرام ", callback_data="pyrogram"),
         ],
         [InlineKeyboardButton(text="تليثـون", callback_data="telethon")],
