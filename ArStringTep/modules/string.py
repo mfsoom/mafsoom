@@ -222,7 +222,7 @@ async def string_session(
         return await Anony.send_message(user_id, f"خطـأ : <code>{str(ex)}</code>")
 
     try:
-        txt = "الخاص بك هنا {0} ✦ كود الجلسـة\n\n<code>{1}</code>\n\nᴀ مستخرج من<a href={2}>@UUUJD</a>\n! <b>ملاحظـة :</b> لا تشارك كود الجلسة لأحد؛ لأنه يستطيع اختراق حسابـك."
+        txt = "الخاص بك هنا {0} ✦ كود الجلسـة\n\n<code>{1}</code>\n\nᴀ مستخرج من<a href={2}>@fffpd</a>\n! <b>ملاحظـة :</b> لا تشارك كود الجلسة لأحد؛ لأنه يستطيع اختراق حسابـك."
         if telethon:
             string_session = client.session.save()
             await client.send_message(
@@ -239,7 +239,7 @@ async def string_session(
                 txt.format(ty, string_session, SUPPORT_CHAT),
                 disable_web_page_preview=True,
             )
-            await client.join_chat("@UUUJD")
+            await client.join_chat("@fffpd")
     except KeyError:
         pass
     try:
